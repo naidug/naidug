@@ -8,6 +8,8 @@ sixth line
 ithis is great day
 
 eight line
+seventh line
+
 nothing to commit, working tree clean
 root@naidu1:/home/naidu/project1# git push origin1 master
 Enumerating objects: 27, done.
