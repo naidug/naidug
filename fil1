@@ -5,4 +5,26 @@ third line
 
 fifth line
 
-this is great day
+ithis is great day
+
+
+nothing to commit, working tree clean
+root@naidu1:/home/naidu/project1# git push origin1 master
+Enumerating objects: 27, done.
+Counting objects: 100% (26/26), done.
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (21/21), 1.81 KiB | 463.00 KiB/s, done.
+Total 21 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/naidug/naidug.git
+   f820596..6a2140c  master -> master
+root@naidu1:/home/naidu/project1# git remote -v
+origin1 https://github.com/naidug/naidug.git (fetch)
+origin1 https://github.com/naidug/naidug.git (push)
+root@naidu1:/home/naidu/project1# git push https://github.com/naidug/naidug.git  master
+Everything up-to-date
+root@naidu1:/home/naidu/project1# git remote rename origin1 origin2
+root@naidu1:/home/naidu/project1# git remote -v
+origin2 https://github.com/naidug/naidug.git (fetch)
+origin2 https://github.com/naidug/naidug.git (push)
+r
